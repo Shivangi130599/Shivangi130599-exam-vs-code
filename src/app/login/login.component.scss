@@ -1,0 +1,14 @@
+@import   url('https://unpkg.com/bootstrap/dist/css/bootstrap.min.css');
+.ng-valid[required], .ng-valid.required {
+   border-left: 5px solid brown;
+
+}
+.mainframe{
+    box-shadow: 8px 10px ;
+    border: 1px solid black;
+    padding: 2%;
+    padding-top: 5%;
+    margin-left: 25%;
+    margin-top: 1%;
+    width: 50%;
+}

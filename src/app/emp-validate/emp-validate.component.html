@@ -1,0 +1,41 @@
+<!-- <div class="centerdiv">
+    <form (ngSubmit)="add()">
+        <div class="form-group">
+            <label>Enter empno</label>
+            <input type="number" class="form-control" 
+               name="empno"  required [(ngModel)] = "employee.empno" #empno="ngModel"/>
+            <div class="error" [hidden]="empno.valid || (empno.pristine&&empno.untouched)"> Name is required </div>
+        </div>
+        <div class="form-group">
+            <label>Enter Name </label>
+            <input  type="text" class="form-control" name="name"
+             #name="ngModel" required [(ngModel)]="employee.name">
+            <div class="error" [hidden]="name.valid && name.pristine"> Name is required </div>
+        </div>
+        <div class="form-group">
+            <label >Enter Salary</label>
+            <input type="number" class="form-control"
+             name="salary" #salary="ngModel" required [(ngModel)] ="employee.salary"/>
+             <div class="error" [hidden]="salary.valid && salary.pristine"> Salary is required </div>
+        </div>
+        <div class="form-group">
+            <label >Enter Date Of Joining</label>
+            <input type="date" class="form-control"
+             name="dateOfJoining" #dateOfJoining="ngModel" required [(ngModel)] ="employee.dateOfJoining"/>
+             <div class="error" [hidden]="dateOfJoining.valid && dateOfJoining.pristine"> DOJ is required </div>
+        </div>
+        <div class="form-group">
+            <label>Select Department</label>
+            <select class="form-control"
+              name="department"[(ngModel)]="employee.department">
+                <option *ngFor="let d of departments" value="{{d}}">{{d}}</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-success">Add</button>
+    
+    </form>
+</div>
+    
+    
+
+    -->

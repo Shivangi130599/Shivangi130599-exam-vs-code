@@ -1,0 +1,27 @@
+.menu{
+    width: 100;
+    display: inline-block;
+    border-radius: 2%;
+    background-color: black;
+}
+
+a{
+    color:royalblue;
+    text-decoration: none;
+}
+.menu-items{
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    padding: 1%;
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    font-size: 15px;
+    transition: ease-in 0.3s;
+}
+
+.menu-items:hover{
+    background-color: rgb(39,202,39);
+    cursor: pointer;
+}
